@@ -35,7 +35,24 @@
     "db": {
       "host": "localhost",
       "port": 27017,
-      "name": "wejsserver"
+      "name": "wejsserver",
+      "msg": {
+        "connect": {
+          "success": "Successfully connected to DB!"
+        },
+        "insert": {
+          "success": "Successfully inserted!"
+        },
+        "get": {
+          "success": "Successfully retrieved!"
+        },
+        "update": {
+          "success": "Successfully updated!"
+        },
+        "delete": {
+          "success": "Successfully deleted!"
+        }
+      }
     },
     "sha": "512",
     "port": "3006"

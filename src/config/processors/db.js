@@ -2,5 +2,5 @@
 
 module.exports = (config, name, value) => {
 
-	config[name] = `mongodb://${value.host}:${value.port}/${value.name}`;
+	config[name].url = `mongodb://${value.host}:${value.port}/${value.name}`;
 };
