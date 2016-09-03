@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/NicolasSchwarzer/wejsserver/issues"
   },
-  "homepage": "https://github.com/NicolasSchwarzer/wejsserver#readme"
+  "homepage": "https://github.com/NicolasSchwarzer/wejsserver#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jssha": "^2.2.0",
+    "mongodb": "^2.2.9",
+    "uuid": "^2.0.2"
+  }
 }
