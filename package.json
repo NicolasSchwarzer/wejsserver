@@ -30,5 +30,14 @@
     "jssha": "^2.2.0",
     "mongodb": "^2.2.9",
     "uuid": "^2.0.2"
+  },
+  "configurations": {
+    "db": {
+      "host": "localhost",
+      "port": 27017,
+      "name": "wejsserver"
+    },
+    "sha": "512",
+    "port": "3006"
   }
 }
