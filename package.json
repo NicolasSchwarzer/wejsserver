@@ -1,6 +1,6 @@
 {
   "name": "wejsserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "We (micro) JavaScript Written Server Based on Express And MongoDB",
   "main": "./bin/start.js",
   "scripts": {
