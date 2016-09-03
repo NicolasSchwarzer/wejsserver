@@ -1,0 +1,26 @@
+{
+  "name": "wejsserver",
+  "version": "1.0.0",
+  "description": "We (micro) JavaScript Written Server Based on Express And MongoDB",
+  "main": "./bin/start.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSchwarzer/wejsserver.git"
+  },
+  "keywords": [
+    "toolkit",
+    "cli",
+    "server",
+    "express",
+    "mongodb"
+  ],
+  "author": "Nicolas Wan <nbwansjtu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasSchwarzer/wejsserver/issues"
+  },
+  "homepage": "https://github.com/NicolasSchwarzer/wejsserver#readme"
+}
