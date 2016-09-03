@@ -4,7 +4,7 @@ let JsSha = require('jssha');
 
 let config = require('../config/init');
 
-module.exports = (value) => {
+module.exports = value => {
 
 	let shaObj = new JsSha(config.sha, 'TEXT');
 
