@@ -63,7 +63,7 @@ module.exports = class {
 
 			name = Path.join(path, name);
 
-			if (FS.isDir(name)) {
+			if (FS.isDirectory(name)) {
 
 				me.getRoutings(`${route}/${Path.basename(path)}`, name, result);
 			}

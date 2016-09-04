@@ -33,7 +33,7 @@ module.exports = function(config, route) {
 
 					me[name](route, value);
 
-					console.log(`绑定路由 \'${name.toUpperCase()}\' \'${route}\'`);
+					console.log(`Route ${route} ${name.toUpperCase()}`);
 
 					break;
 			}
