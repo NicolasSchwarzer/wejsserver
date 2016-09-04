@@ -2,7 +2,8 @@
 
 let Express = require('express'),
 	BodyParser = require('body-parser'),
-	Route = require('../src/server/route');
+	Route = require('../src/server/route'),
+	Path = require('../src/util/path');
 
 let config = require('../src/config/init'),
 	port = config.port,
@@ -15,6 +16,8 @@ app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({
 	extended: true
 }));
+
+app.use('/img', Express.static(Path.join(__dirname, '..', 'public', 'img')));
 
 app.map((new Route).getRoutings());
 
